@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Laboratorio - Prática 06 - Exercício 01</title>
+	
+</head>
+<body>
+
+	<p>Lista de Produtos</p>
+	<ul>
+		<li>Leite</li>
+		<li>Café</li>
+		<li>Arroz</li>
+	</ul>
+		<button onclick="listar()">Listar Produtos</button>
+		<p id="resposta"></p>
+		<script type="text/javascript">
+			function listar(){
+				var i,x = document.getElementsByTagName("li")
+				for (var i = 0; i < x.length; i++) {
+					document.getElementById("respota").innerHTML += x[i].innerHTML + "";
+			}
+			}
+		</script>
+</body>
+</html>

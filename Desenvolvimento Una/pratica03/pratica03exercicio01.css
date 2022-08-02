@@ -1,0 +1,12 @@
+/*Identificado CSS.*/
+#titulo{
+	color: orangered;
+	font-size: 4rem;
+	font-family: Verdana;
+}
+/*Classe CSS.*/
+.titulo{
+	color: blue;
+	font-size: 4rem;
+	font-family: Verdana;
+}
