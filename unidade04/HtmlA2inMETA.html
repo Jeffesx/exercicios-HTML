@@ -1,0 +1,28 @@
+<!-- meta =informaç
+    *meta name = gerar nomes que indentificam sua pagina, content = exibir esa informação;
+    *meta http-equiv controla as ações do browser;
+-->
+<!DOCTYPE html>
+<html lang="pt-BR" >
+    <head>
+        <title>Unidade 02 - Elemento Head</title>
+        <meta charset="utf-8">
+        <meta name="author" content="Jefferson Carmo"><!--atutor da pagina-->
+        <meta name="generator" content="Brackets"><!--com oque foi gerado-->
+        <meta name="Keywords" content = "HTML5,JavaScript,Front End"><!-- Palavras chaves em que o site de busca irá mostrar sua pagina-->
+        <meta name="description" content="Projeto do curso de HTML5"><!--Descrição da Pagina-->
+        <meta name="application-name" content="Aula2 M04"> <!--nome da aplicação-->
+        <meta http-equiv="refresh" content="4"><!-- recarrega a pagina por um tempo delimitado-->
+        <script>
+            function sorteioNumero(){ 
+                //Essa função gera numeros aleatórios * 50.
+                //Atributo, Math é utilizado para funcionalidades matematicas.
+                resultado.innerHTML = Math.random() * 50;//DE HTML PARA JAVA SCRIPT
+            }
+            window.onload = sorteioNumero; //chama função Sorteio quando carregar a pagina.
+        </script>
+    </head>
+    <body>
+      <p id="resultado"></p>
+    </body>
+</html>

@@ -1,0 +1,36 @@
+<!-- style = *partes graficas da pagina;
+             *body = corpo da pagina;
+             *background = fundo da pagina;
+             *font-family = fonte da pagina;
+             *id = criação de um objeto HTML;
+             *objeto.innerHTML = conversão de um objeto HTML em javascript;
+             *function = função ou caixa aonde sera armazenado informações a serem *utilizadas no decorrer do código;
+             *windowns.onload = chama a função criada com os dados no momento em que a      pagina for carregada;
+-->
+
+<!DOCTYPE html>
+<html lang="pt-BR" >
+    <head>
+        <title>Unidade 02 - Elemento Head</title>
+        <meta charset="utf-8">
+        <style>
+            body {
+                background: #ccc;
+                font-family: sans-serif;
+                color:#fff;
+            }
+        </style>
+        <script>
+        
+            function escreverNome(){
+                
+                nome.innerHTML ="Jefferson Carmo";
+            }
+            
+            window.onload = escreverNome;
+        </script>
+    </head>
+    <body>
+        <p id ="nome"></p>
+    </body>
+</html>
